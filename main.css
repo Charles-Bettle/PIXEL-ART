@@ -1,0 +1,187 @@
+/*%%%%%%%%%%%%%%------------- RESET -------------%%%%%%%%%%%%%%*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%; /* 1rem pour 10px */
+}
+
+body{
+	font-size: 1.5rem; /* => 15px */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+li{
+	list-style-type: none;
+}
+
+img{
+	max-width: 100%; /* img ne depasse jamais le parent */
+}
+
+header{
+	position: fixed;
+	background-color: #FFF;
+	width: 100%;
+	z-index: 99;
+/*	margin-left: -600px;
+	left: 50%;*/
+	/*opacity: .9;*/
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+/*%%%%%%%%%%%%%%------------- DEBUT DE CSS -------------%%%%%%%%%%%%%%*/
+
+
+.content{
+	margin: 0 auto;
+}
+
+.content-top{
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	background-color: #458;
+}
+
+.content-top-left{
+	display: flex;
+	align-items: center;
+}
+
+.content-top-right{
+	display: flex;
+	align-items: center;
+}
+
+h4{
+	margin-right: 20px;
+}
+
+/*.shark{
+	background-color: gray;
+	outline-color: gray;
+}*/
+
+.purple{
+	background-color: purple;
+	outline-color: purple;
+}
+
+.red{
+	background-color: red;
+	outline-color: red;
+}
+
+.orange{
+	background-color: orange;
+	outline-color: orange;
+}
+
+.yellow{
+	background-color: yellow;
+	outline-color: yellow;
+}
+
+.green{
+	background-color: green;
+	outline-color: green;
+}
+
+.blue{
+	background-color: blue;
+	outline-color: blue;
+}
+
+.black{
+	background-color: black;
+	outline-color: black;
+
+}
+.content-top-left input{
+	width: 22px;
+	height: 22px;
+	border: 1px solid #234;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.cleanTable{
+	width: 160px;
+	height: 40px;
+	border: 1px solid #234;
+	background-color: #890;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.3rem;
+	margin-right: 10px;
+}
+
+.makeTable{
+	width: 160px;
+	height: 40px;
+	border: 1px solid #234;
+	background-color: #098875;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.content-Tableau{
+	width: 800px;
+	margin: 40px auto;
+}
+
+.sizeCel{
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+.content-Tableau{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-bottom{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#creaTableau{
+    width: 800px;
+    height: 200px;
+    font-size: 0;
+}
+#creaTableau > div{
+    font-size: 1rem;
+    display: inline-flex;
+    width: 3%;
+    height: 11%;
+    border: 1px solid #000;
+}
+
+#divReference{
+
+}
